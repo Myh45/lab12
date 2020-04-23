@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<title>Розрахунки Площ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="content-type" content="text/HTML; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+     <div class="wrapper">
+    <header>
+        <div class="classPadding">
+            <div class="row">
+                <div class="col-md-12">
+            <h1>Невідома сторона трикутника</h1>
+            <img src="https://shkolkovo.net/media/upload/task_images/118/theory_00_07_1.png"><br>
+  Введіть сторону А: 
+  <input type="number" id = "var_a">
+  <br>
+  Введіть сторону Б: 
+  <input type="number" id = "var_b">
+  <br>
+            <div class="calc" style="text-align: center">
+                <div class="btn-group btn-group-toggle" style="padding: 20px" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked>Два Катети
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Гіпотенуза та катет
+  </label>
+</div>
+            <button type="button" onClick="calc_click();" class="btn btn-dark center">Знайти сторону</button>
+                </div>
+            <div class = "rez"></div><br><br>
+                    </div>
+                
+                <div class="col-md-12">
+                
+            <h1>Квадратне рівняння</h1>
+                    <img src="https://img.icons8.com/bubbles/2x/plus-2-math.png"><br>
+  <input type="number" id = "stor_a">
+    x^2+
+  <input type="number" id = "stor_b">
+    x+ 
+  <input type="number" id = "stor_c">
+    =0                
+<br>
+            <div class="calc1">
+            <button type="button"  class="btn btn-dark center">Розв'язати рівняння</button>
+                </div>
+            <div class = "rez1"></div><br><br>
+                </div>
+                
+                
+                <div class="col-md-12">
+                    <h1>Табулювання функції</h1><br>
+                    <h2>y(x)=Cos(x)+5^2</h2><br>
+    Введіть початкову межу:
+  <input type="number" id = "start"><br>
+    Введіть кінцеву межу:
+  <input type="number" id = "finish"><br>
+    Введіть крок:
+  <input type="number" id = "step">
+<br>
+            <div class="calc2">
+                
+            <button type="button" class="btn btn-dark center">Табулуювати функцію</button>
+                </div>
+            <div class = "rez2"></div>
+                </div>
+                
+                </div>
+            
+     <script src="script.js"></script>
+            </div>
+    </header>
+   <div class="push"></div>
+   </div>
+    <div id="footer" class="classMainTextic1">
+   
+        <div id="down">
+       <a href="https://myh45.github.io/rezume/">
+           Copyright © 2020 Михайлович Олег
+        </a>
+            </div>
+    </div>
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+    var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+    </script>
+</body>
+
+
+</html>
+
+

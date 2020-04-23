@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.push {
+  height: 50px;
+}
+#footer{
+    margin-top: 10px;
+    clear: both;
+    background: url(images/footer.png) no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+body{
+   
+}
+.classPadding{
+    padding: 20px;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+}
+.classPadding input{
+    margin: 5px;
+}
+#footer p{
+    font-size: 14px;
+    text-align: center;
+}
+#down a:hover{
+    color:#5094f2;
+}
+#down{
+    text-align: center;
+    align-content: center;
+}
+#down a{
+    text-decoration: none;
+    color: black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.calc{
+padding: 20px;
+    text-align: left;
+}
+.calc1{
+padding: 20px;
+    text-align: left;
+}
+.calc2{
+padding: 20px;
+    text-align: left;
+}
