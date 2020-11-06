@@ -12,6 +12,7 @@ function calc_click(){
     a=parseFloat(a.value);
     b=parseFloat(b.value);    
     
+    if(a!=0 && b!=0){
     if(a>b){
         var c= Math.sqrt((a*a)-(b*b));
         text=c;
@@ -20,7 +21,9 @@ function calc_click(){
         var c= Math.sqrt((b*b)-(a*a));
         text=c; 
     }
-    rez.innerHTML='Знайдена сторона: '+text; 
+    rez.innerHTML='Знайдена сторона: '+text;
+    }else{
+    rez.innerHTML='Введіть правильні сторони';
+    }
+    
 }
-
-
