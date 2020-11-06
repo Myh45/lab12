@@ -23,6 +23,19 @@ html, body {
 body{
    
 }
+
+.triangle {   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-color: transparent transparent red transparent;
+    border-style: solid;
+    border-width: 0px 200px 200px 200px;
+    height: 0px;
+    width: 0px;
+}
+
 .classPadding{
     padding: 20px;
     font-family: Andale Mono, monospace;
